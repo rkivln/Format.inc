@@ -1,0 +1,6 @@
+{
+  "name": "Format",
+  "description": "Personalized customer insights in weekly podcasts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Instrument+Serif:ital,wght@0,400;0,900;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Instrument Serif", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+/* Custom styles for smooth experience and custom utility scroll behavior */
+html {
+  scroll-behavior: smooth;
+  background-color: #050505;
+  color: #ffffff;
+}
+
+/* Base custom classes to match high contrast Serif styles */
+.text-serif {
+  font-family: var(--font-serif);
+}
+
+.text-sans {
+  font-family: var(--font-sans);
+}
+
+/* Ambient glow & mask effects */
+.ambient-glow {
+  background: radial-gradient(circle at center, rgba(255, 69, 0, 0.15) 0%, rgba(255, 140, 0, 0.05) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.ambient-green-glow {
+  background: radial-gradient(circle at center, rgba(34, 197, 94, 0.12) 0%, rgba(0, 0, 0, 0) 70%);
+}
+
+.ambient-amber-glow {
+  background: radial-gradient(circle at center, rgba(245, 158, 11, 0.12) 0%, rgba(0, 0, 0, 0) 70%);
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.dark-glassmorphism {
+  background: rgba(10, 10, 10, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Hide scrollbar utility for marquee */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
