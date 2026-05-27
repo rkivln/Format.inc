@@ -29,8 +29,8 @@ export default function Integrations() {
             {/* Cinematic cropped portrait */}
             <div className="relative aspect-[3/4] sm:aspect-[4/5] md:aspect-square lg:aspect-[4/5] rounded-2xl overflow-hidden border border-white/15 shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=80"
-                alt="Cinematic warm side-profile of a listener"
+                src="/images/gokulan-linkedin-profile.jpeg"
+                alt="Portrait of Gokulan"
                 className="w-full h-full object-cover filter brightness-[0.75] sepia-[0.1] contrast-[1.05] transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
               />

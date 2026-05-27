@@ -92,5 +92,5 @@ export const TESTIMONIAL: Testimonial = {
   quote: "I'm not usually a podcast person, but this was absolutely worth tuning into. It's engaging, thoughtful, and gave me a much clearer sense of what our customers care about.",
   author: "Abby Minondo",
   title: "Chief of Staff, Equals",
-  avatarUrl: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&h=400&q=80"
+  avatarUrl: "/images/gokulan-linkedin-profile.jpeg"
 };
