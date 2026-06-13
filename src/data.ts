@@ -90,7 +90,7 @@ export const FEATURES: FeatureCard[] = [
 
 export const TESTIMONIAL: Testimonial = {
   quote: "I'm not usually a podcast person, but this was absolutely worth tuning into. It's engaging, thoughtful, and gave me a much clearer sense of what our customers care about.",
-  author: "Abby Minondo",
-  title: "Chief of Staff, Equals",
+  author: "Gokulan Anbalagan",
+  title: "Founder - Format inc.",
   avatarUrl: "/images/gokulan-linkedin-profile.jpeg"
 };
