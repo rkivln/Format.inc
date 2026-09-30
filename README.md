@@ -1,4 +1,4 @@
-# FORMAT INC.
+# FORMAT 
 
 ### AI-Powered Voice Automation for Modern Businesses
 
